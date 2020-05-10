@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE html [
+<!DOCTYPE root [
   <!ELEMENT p ANY>
   <!ENTITY bar "World">
 ]>
-<html>
+<root>
+  <data>
   Hello &bar;
-</html>
+  </data>
+</root>
